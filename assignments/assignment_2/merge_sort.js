@@ -19,14 +19,3 @@ function merge(left = [], right = []) {
 
   return [...sortedArr, ...left, ...right];
 }
-
-// function merge(left = [], right = []) {
-//   const sortedArr = [];
-
-//   while (left.length && right.length) {
-//     if (left[0] < right[0]) sortedArr.push(left.shift());
-//     else sortedArr.push(right.shift());
-//   }
-
-//   return [...sortedArr, ...left, ...right];
-// }
